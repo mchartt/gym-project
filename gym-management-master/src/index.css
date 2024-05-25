@@ -1,0 +1,45 @@
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --white: #ffffff;
+    --muted: #6c757d;
+}
+
+.header {
+    background-color: var(--dark); /* Use dark background for the header */
+    color: var(--white); /* White text color for better contrast */
+}
+
+.header .btn-link {
+    color: var(--white); /* White text color for navigation buttons */
+}
+
+.header .btn-link:hover {
+    color: var(--warning); /* Yellow color on hover for better visibility */
+}
+
+.loading-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+ul.list-group {
+    margin-bottom: 20px;
+}
